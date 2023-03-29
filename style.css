@@ -43,3 +43,32 @@ nav ul li{
     font-size: 1.3rem;
     margin: 0 15px;
 }
+
+.container{
+    min-height: 75vh;
+}
+
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.icons i{
+    padding: 0 15px;
+}
+
+#myProgressBar{
+    width: 80vw;
+}
