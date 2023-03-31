@@ -1,126 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap");
 
-body{
-    background-color: antiquewhite;
+body {
+  background-color: antiquewhite;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-nav{
-    
-    font-family: 'Ubuntu', sans-serif;
-   
+nav {
+  font-family: "Ubuntu", sans-serif;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    background-color: black;
-    height: 65px;
-    color: white;
-
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  background-color: black;
+  height: 65px;
+  color: white;
 }
 
-nav ul li{
-    padding: 0 5px;
-    padding: 0 10px;
+nav ul li {
+  padding: 0 5px;
+  padding: 0 10px;
 }
 
-.brand img{
-    width:50px;
-    padding: 0 8px;
+.brand img {
+  width: 50px;
+  padding: 0 8px;
 }
 
-.brand{
-    display: flex;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 1.3rem;
-    margin: 0 15px;
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  margin: 0 15px;
 }
 
-.container{
-    min-height: 60vh;
-    background-color: black;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    margin: 23px auto;
-    width: 60%;
-    border-radius: 12px;
-    padding: 34px;
-    background-image: url('images/bg.jpg');
-    background-size: cover;
+.container {
+  min-height: 60vh;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 60%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url("images/bg.jpg");
+  background-size: cover;
 }
 
-.bottom{
-    position: sticky;
-    height: 120px;
-    background-color: black;
-    color: white;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.bottom {
+  position: sticky;
+  height: 120px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.icons{
-    margin: 10px 0;
-    cursor: pointer;
+.icons {
+  margin: 10px 0;
+  cursor: pointer;
 }
 
-.icons i{
-    padding: 0 15px;
+.icons i {
+  padding: 0 15px;
 }
 
-#myProgressBar{
-    width: 80vw;
-    cursor: pointer;
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
 }
 
-.songItemContainer{
-    margin-top: 50px;
+.songItemContainer {
+  margin-top: 50px;
 }
-.songItem{
-    height: 50px;
-    display: flex;
-    background-color: white;
-    /* width: 80%; */
-    color: black;
-    margin: 12px 0;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 30px;
-}
-
-.songItem img{
-    width: 40px;
-    margin: 0 23px;
-    border-radius: 34px;
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  /* width: 80%; */
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
 }
 
-.timeStamp{
-    margin: 0 10px;
+.songItem img {
+  width: 40px;
+  margin: 0 23px;
+  border-radius: 34px;
 }
 
-.timeStamp i{
-    padding: 0 10px;
-    cursor: pointer;
+.timeStamp {
+  margin: 0 10px;
 }
 
-.songInfo{
-    position: absolute;
-    left: 10vw;
-    font-family: 'Montserrat', sans-serif;
+.timeStamp i {
+  padding: 0 10px;
+  cursor: pointer;
 }
 
-.songInfo img{
-    opacity: 0;
-    transition: opacity 0.4s ease-in;
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
 }
